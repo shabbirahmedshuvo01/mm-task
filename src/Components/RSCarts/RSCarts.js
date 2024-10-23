@@ -254,7 +254,7 @@ const RSCarts = () => {
       {/* third card */}
 
       <section className="bg-base-300 rounded-lg">
-        <div className="flex justify-evenly items-center">
+        <div className="flex justify-evenly items-center pt-5">
           <p className="font-semibold text-blue-500">Tasks</p>
           <div>
             <button className="btn border border-black font-mono btn-sm">
@@ -278,6 +278,161 @@ const RSCarts = () => {
           </button>
         </div>
 
+        <div className="p-5">
+          <div class="border border-gray-300 p-4 flex justify-between items-center">
+            {/* <!-- Left aligned text --> */}
+            <p class="text-sm">This is a one-line text</p>
+
+            {/* <!-- Right aligned checkbox and settings icon --> */}
+            <div class="flex items-center space-x-2">
+              {/* <!-- Checkbox --> */}
+              <input
+                type="checkbox"
+                class="form-checkbox h-4 w-4 text-blue-600"
+              />
+
+              {/* <!-- Settings Icon --> */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                class="w-5 h-5 text-gray-600 hover:text-gray-800 cursor-pointer"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 9.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm7.47 2.25a7.468 7.468 0 01-.36 2.17l1.53 1.53a1.13 1.13 0 010 1.6l-1.6 1.6a1.13 1.13 0 01-1.6 0l-1.53-1.53a7.468 7.468 0 01-2.17.36 7.468 7.468 0 01-2.17-.36l-1.53 1.53a1.13 1.13 0 01-1.6 0l-1.6-1.6a1.13 1.13 0 010-1.6l1.53-1.53a7.468 7.468 0 01-.36-2.17 7.468 7.468 0 01.36-2.17L4.64 9.64a1.13 1.13 0 010-1.6l1.6-1.6a1.13 1.13 0 011.6 0l1.53 1.53a7.468 7.468 0 012.17-.36 7.468 7.468 0 012.17.36l1.53-1.53a1.13 1.13 0 011.6 0l1.6 1.6a1.13 1.13 0 010 1.6l-1.53 1.53a7.468 7.468 0 01.36 2.17z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div className="p-5">
+          <div class="border border-gray-300 p-4 flex justify-between items-center">
+            {/* <!-- Left aligned text --> */}
+            <p class="text-sm">This is a one-line text</p>
+
+            {/* <!-- Right aligned checkbox and settings icon --> */}
+            <div class="flex items-center space-x-2">
+              {/* <!-- Checkbox --> */}
+              <input
+                type="checkbox"
+                class="form-checkbox h-4 w-4 text-blue-600"
+              />
+
+              {/* <!-- Settings Icon --> */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                class="w-5 h-5 text-gray-600 hover:text-gray-800 cursor-pointer"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 9.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm7.47 2.25a7.468 7.468 0 01-.36 2.17l1.53 1.53a1.13 1.13 0 010 1.6l-1.6 1.6a1.13 1.13 0 01-1.6 0l-1.53-1.53a7.468 7.468 0 01-2.17.36 7.468 7.468 0 01-2.17-.36l-1.53 1.53a1.13 1.13 0 01-1.6 0l-1.6-1.6a1.13 1.13 0 010-1.6l1.53-1.53a7.468 7.468 0 01-.36-2.17 7.468 7.468 0 01.36-2.17L4.64 9.64a1.13 1.13 0 010-1.6l1.6-1.6a1.13 1.13 0 011.6 0l1.53 1.53a7.468 7.468 0 012.17-.36 7.468 7.468 0 012.17.36l1.53-1.53a1.13 1.13 0 011.6 0l1.6 1.6a1.13 1.13 0 010 1.6l-1.53 1.53a7.468 7.468 0 01.36 2.17z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div className="p-5">
+          <div class="border border-gray-300 p-4 flex justify-between items-center">
+            {/* <!-- Left aligned text --> */}
+            <p class="text-sm">This is a one-line text</p>
+
+            {/* <!-- Right aligned checkbox and settings icon --> */}
+            <div class="flex items-center space-x-2">
+              {/* <!-- Checkbox --> */}
+              <input
+                type="checkbox"
+                class="form-checkbox h-4 w-4 text-blue-600"
+              />
+
+              {/* <!-- Settings Icon --> */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                class="w-5 h-5 text-gray-600 hover:text-gray-800 cursor-pointer"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 9.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm7.47 2.25a7.468 7.468 0 01-.36 2.17l1.53 1.53a1.13 1.13 0 010 1.6l-1.6 1.6a1.13 1.13 0 01-1.6 0l-1.53-1.53a7.468 7.468 0 01-2.17.36 7.468 7.468 0 01-2.17-.36l-1.53 1.53a1.13 1.13 0 01-1.6 0l-1.6-1.6a1.13 1.13 0 010-1.6l1.53-1.53a7.468 7.468 0 01-.36-2.17 7.468 7.468 0 01.36-2.17L4.64 9.64a1.13 1.13 0 010-1.6l1.6-1.6a1.13 1.13 0 011.6 0l1.53 1.53a7.468 7.468 0 012.17-.36 7.468 7.468 0 012.17.36l1.53-1.53a1.13 1.13 0 011.6 0l1.6 1.6a1.13 1.13 0 010 1.6l-1.53 1.53a7.468 7.468 0 01.36 2.17z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div className="p-5">
+          <div class="border border-gray-300 p-4 flex justify-between items-center">
+            {/* <!-- Left aligned text --> */}
+            <p class="text-sm">This is a one-line text</p>
+
+            {/* <!-- Right aligned checkbox and settings icon --> */}
+            <div class="flex items-center space-x-2">
+              {/* <!-- Checkbox --> */}
+              <input
+                type="checkbox"
+                class="form-checkbox h-4 w-4 text-blue-600"
+              />
+
+              {/* <!-- Settings Icon --> */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                class="w-5 h-5 text-gray-600 hover:text-gray-800 cursor-pointer"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 9.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm7.47 2.25a7.468 7.468 0 01-.36 2.17l1.53 1.53a1.13 1.13 0 010 1.6l-1.6 1.6a1.13 1.13 0 01-1.6 0l-1.53-1.53a7.468 7.468 0 01-2.17.36 7.468 7.468 0 01-2.17-.36l-1.53 1.53a1.13 1.13 0 01-1.6 0l-1.6-1.6a1.13 1.13 0 010-1.6l1.53-1.53a7.468 7.468 0 01-.36-2.17 7.468 7.468 0 01.36-2.17L4.64 9.64a1.13 1.13 0 010-1.6l1.6-1.6a1.13 1.13 0 011.6 0l1.53 1.53a7.468 7.468 0 012.17-.36 7.468 7.468 0 012.17.36l1.53-1.53a1.13 1.13 0 011.6 0l1.6 1.6a1.13 1.13 0 010 1.6l-1.53 1.53a7.468 7.468 0 01.36 2.17z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div className="p-5">
+          <div class="border border-gray-300 p-4 flex justify-between items-center">
+            {/* <!-- Left aligned text --> */}
+            <p class="text-sm">This is a one-line text</p>
+
+            {/* <!-- Right aligned checkbox and settings icon --> */}
+            <div class="flex items-center space-x-2">
+              {/* <!-- Checkbox --> */}
+              <input
+                type="checkbox"
+                class="form-checkbox h-4 w-4 text-blue-600"
+              />
+
+              {/* <!-- Settings Icon --> */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                class="w-5 h-5 text-gray-600 hover:text-gray-800 cursor-pointer"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round" 
+                  d="M12 9.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm7.47 2.25a7.468 7.468 0 01-.36 2.17l1.53 1.53a1.13 1.13 0 010 1.6l-1.6 1.6a1.13 1.13 0 01-1.6 0l-1.53-1.53a7.468 7.468 0 01-2.17.36 7.468 7.468 0 01-2.17-.36l-1.53 1.53a1.13 1.13 0 01-1.6 0l-1.6-1.6a1.13 1.13 0 010-1.6l1.53-1.53a7.468 7.468 0 01-.36-2.17 7.468 7.468 0 01.36-2.17L4.64 9.64a1.13 1.13 0 010-1.6l1.6-1.6a1.13 1.13 0 011.6 0l1.53 1.53a7.468 7.468 0 012.17-.36 7.468 7.468 0 012.17.36l1.53-1.53a1.13 1.13 0 011.6 0l1.6 1.6a1.13 1.13 0 010 1.6l-1.53 1.53a7.468 7.468 0 01.36 2.17z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
         <div className="p-5">
           <div class="border border-gray-300 p-4 flex justify-between items-center">
             {/* <!-- Left aligned text --> */}
